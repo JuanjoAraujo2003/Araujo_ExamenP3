@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Araujo_ExamenP3.JA_Views.Personajes"
-             Title="Examen P3 Juan Araujo - API Publica">
+             Title="Examen P3 Juan Araujo - API Publica"
+             BackgroundColor="DarkSlateGrey">
 
     <Grid>
-        <Label x:Name="personajesLabel" FontSize="20" Text="Mostrar personajes disponibles" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="personajesLabel" FontSize="20" Text="Mostrar personajes disponibles:" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
 
-        <Button Text="Mostrar Personajes" Clicked="Button_Clicked" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
+        <Button x:Name="btnPersonaje" Text="Mostrar Personajes" Clicked="Button_Clicked" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" />
     </Grid>
 
 </ContentPage>

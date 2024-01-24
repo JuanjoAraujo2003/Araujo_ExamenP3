@@ -32,7 +32,7 @@ public partial class Personajes : ContentPage
         {
             using (var client = new HttpClient())
             {
-                string url = $"https://rickandmortyapi.com/api/character/1,183";
+                string url = $"https://rickandmortyapi.com/api/character/1,13,15,16,183";
 
                 var respuesta = await client.GetAsync(url);
 
@@ -48,5 +48,8 @@ public partial class Personajes : ContentPage
 
             }
         }
+
+        btnPersonaje.IsVisible = false;
+
     }
 }
