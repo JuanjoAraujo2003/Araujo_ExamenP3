@@ -3,12 +3,12 @@
     x:Class="Araujo_ExamenP3.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Araujo_ExamenP3"
+    xmlns:local="clr-namespace:Araujo_ExamenP3.JA_Views"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:Personajes}"
+        Route="Personajes" />
 
 </Shell>
